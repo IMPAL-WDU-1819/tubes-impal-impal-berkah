@@ -1,0 +1,48 @@
+[Tabel Admin]
+
+INSERT INTO `admin`(`id_admin`, `nama_admin`, `password`, `username`, `jk_admin`) VALUES ('ADM1','HAMAD','hamad','hamad','Laki-Laki')
+INSERT INTO `admin`(`id_admin`, `nama_admin`, `password`, `username`, `jk_admin`) VALUES ('ADM2','ROMY','romy','romy','Laki-Laki');
+INSERT INTO `admin`(`id_admin`, `nama_admin`, `password`, `username`, `jk_admin`) VALUES ('ADM3','HAFIDZ','hafidz','hafidz','Laki-Laki');
+INSERT INTO `admin`(`id_admin`, `nama_admin`, `password`, `username`, `jk_admin`) VALUES ('ADM4','YUDHA','yudha','yudha','Laki-Laki')
+
+[Tabel Barang]
+
+INSERT INTO `barang`(`id_barang`, `nama_barang`, `jenis_barang`, `stok_barang`) VALUES ('BRG1','Magnesium','Bahan Baku','12');
+INSERT INTO `barang`(`id_barang`, `nama_barang`, `jenis_barang`, `stok_barang`) VALUES ('BRG2','Nikel','Bahan Baku','20');
+INSERT INTO `barang`(`id_barang`, `nama_barang`, `jenis_barang`, `stok_barang`) VALUES ('BRG3','Alumunium','Bahan Baku','10');
+
+[Tabel Pelanggan]
+
+INSERT INTO `pelanggan`(`id_pelanggan`, `nama_pelanggan`, `alamat`, `jk`, `password`, `username`) VALUES ('PLG1','BUDI','sukabirus','Laki-Laki','budi','budi');
+INSERT INTO `pelanggan`(`id_pelanggan`, `nama_pelanggan`, `alamat`, `jk`, `password`, `username`) VALUES ('PLG2','Kakaknya Budi','sukapura','Laki-Laki','kakaknyabudi','kakaknyabudi');
+INSERT INTO `pelanggan`(`id_pelanggan`, `nama_pelanggan`, `alamat`, `jk`, `password`, `username`) VALUES ('PLG3','Adiknya Budi','Dayeuhkolot','Laki-Laki','adiknyabudi','adiknyabudi');
+
+[Tabel Pembuat]
+
+INSERT INTO `pembuat`(`id_pembuat`, `nama_pembuat`, `jk_pembuat`) VALUES ('PMB1','Berlian','Laki-Laki');
+INSERT INTO `pembuat`(`id_pembuat`, `nama_pembuat`, `jk_pembuat`) VALUES ('PMB2','Nopal','Laki-Laki');
+INSERT INTO `pembuat`(`id_pembuat`, `nama_pembuat`, `jk_pembuat`) VALUES ('PMB3','Jono','Laki-Laki');
+
+[Tabel Pesawat]
+
+INSERT INTO `pesawat`(`id_pesawat`, `nama_pesawat`, `harga`) VALUES ('PSW1','Boeing','120.000.000.000');
+INSERT INTO `pesawat`(`id_pesawat`, `nama_pesawat`, `harga`) VALUES ('PSW2','Boeing 2.0','140.000.000.000');
+INSERT INTO `pesawat`(`id_pesawat`, `nama_pesawat`, `harga`) VALUES ('PSW3','Boeing 3.0','190.000.000.000');
+
+[Tabel Supplier]
+
+INSERT INTO `supplier`(`nama`, `id_supplier`, `jk_supplier`) VALUES ('Berli','SUP1','Laki-Laki');
+INSERT INTO `supplier`(`nama`, `id_supplier`, `jk_supplier`) VALUES ('satrio','SUP2','Laki-Laki');
+INSERT INTO `supplier`(`nama`, `id_supplier`, `jk_supplier`) VALUES ('dedih','SUP3','Laki-Laki');
+
+[Tabel Pembuatan]
+
+INSERT INTO `pembuatan`(`id_pembuatan`, `nama_pembuat`, `id_pesawat`, `lama_pembuatan`) VALUES ('PEM1','PMB2','PSW1','100 hari');
+INSERT INTO `pembuatan`(`id_pembuatan`, `nama_pembuat`, `id_pesawat`, `lama_pembuatan`) VALUES ('PEM2','PMB3','PSW3','120 hari');
+INSERT INTO `pembuatan`(`id_pembuatan`, `nama_pembuat`, `id_pesawat`, `lama_pembuatan`) VALUES ('PEM3','PMB3','PSW2','150 hari');
+
+[Tabel Transaksi]
+
+INSERT INTO `transaksi`(`id_transaksi`, `id_pelanggan`, `id_admin`, `tgl_transaksi`, `id_pesawat`) VALUES ('TRS1','PLG1','ADM1','2015-10-08','PSW1');
+INSERT INTO `transaksi`(`id_transaksi`, `id_pelanggan`, `id_admin`, `tgl_transaksi`, `id_pesawat`) VALUES ('TRS2','PLG2','ADM2','2020-12-07','PSW2');
+INSERT INTO `transaksi`(`id_transaksi`, `id_pelanggan`, `id_admin`, `tgl_transaksi`, `id_pesawat`) VALUES ('TRS3','PLG2','ADM2','2017-08-02','PSW2');
