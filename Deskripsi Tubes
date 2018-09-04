@@ -1,0 +1,27 @@
+TUGAS BESAR IMPLEMENTASI DAN PENGUJIAN PERANGKAT LUNAK
+
+ASUMSI
+1. Mahasiswa Kelas IMPAL  pernah mengambil MK APPL (Analisis dan Perancangan Perangkat Lunak)
+2. Mereka telah memiliki dokumen SKPL & DPPL Terstruktur (Procedural) atau SKPL & DPPL Object Orienged dari Tugas Besar kelas APPL
+3. Kelompok IMPAL melanjutkan kelompok APPL (4-5 orang)
+Dalam  hal kondisi di lapangan berbeda, dosen dapat mengambil kebijakan yang diperlukan, sesuai situasi dan kondisi di masing-masing kelas.
+
+PELAKSANAAN
+Sesuai dengan nama MK ini, Tugas Besar MK ini ada 2 :
+1.	Melakukan Coding dari SKPL & DPPL yang telah dibuat, salah satu dari yang Procedural atau yang OO. 
+2.	Hasil akhir Coding ada 2:
+a.	SOURCE CODE yang tersimpan di GitHub
+b.	Dokumen akhir berupa USER MANUAL
+3.	Melakukan pengujian terhadap Code yang telah dibuat
+4.	Hasil akhir pengujian berupa DOKUMEN UJI PERANGKAT LUNAK.
+Meskipun contoh-contoh dan tugas-tugas mingguan di kelas teori beberapa akan menggunakan bahasa pemrograman Java, Coding TUBES  dapat menggunakan bahasa pemrograman lain sesuai dengan keinginan kelompok. 
+Diharapkan Implementasi dan Pengujian PL OO nya semaksimal mungkin memenuhi requirement di SKPL dan DPPL.
+Jadi, output akhir TUBES, akhirnya ada 3:
+a.	SOURCE CODE yang tersimpan di GitHub
+b.	Dokumen USER MANUAL
+c.	Dokumen Uji Perangkat Lunak.
+Direncanakan Ujian Akhir Semester, bukan dalam bentuk tertulis, namun digantikan dengan uji lisan terhadap setiap  personal kelompok (satu per satu anggota TUBES) terkait seluruh pemahaman dan ketrampilannya :
+a.	Memahamai SKPL dan DPPL dan pengaruhnya pada Code & Pengujian
+b.	Bisa melakukan code terhadap perancangan yang telah dilakukan
+c.	Bisa melakukan pengujian unit dan integrasi dari code nya itu.
+Uji Lisan personal dilakukan pada Minggu Terakhir Kuliah, dan jika belum selesai, dapat memanfaatkan waktu UAS sesuai jadwal.
