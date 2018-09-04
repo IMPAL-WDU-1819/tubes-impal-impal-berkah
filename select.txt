@@ -1,0 +1,6 @@
+Select username,password from admin where username='username' and password='password'
+
+Select username,password from pelanggan where username='username' and password='password'
+
+[Select untuk Login admin/pelanggan]
+
