@@ -16,21 +16,4 @@ Software ini berfungsi untuk pemesanan pembuatan Pesawat Terbang
 
 # Moto Kelompok
 
-⠀⠰⡿⠿⠛⠛⠻⠿⣷
-⠀⠀⠀⠀⠀⠀⣀⣄⡀⠀⠀⠀⠀⢀⣀⣀⣤⣄⣀⡀
-⠀⠀⠀⠀⠀⢸⣿⣿⣷⠀⠀⠀⠀⠛⠛⣿⣿⣿⡛⠿⠷
-⠀⠀⠀⠀⠀⠘⠿⠿⠋⠀⠀⠀⠀⠀⠀⣿⣿⣿⠇
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠁
-
-⠀⠀⠀⠀⣿⣷⣄⠀⢶⣶⣷⣶⣶⣤⣀
-⠀⠀⠀⠀⣿⣿⣿⠀⠀⠀⠀⠀⠈⠙⠻⠗
-⠀⠀⠀⣰⣿⣿⣿⠀⠀⠀⠀⢀⣀⣠⣤⣴⣶⡄
-⠀⣠⣾⣿⣿⣿⣥⣶⣶⣿⣿⣿⣿⣿⠿⠿⠛⠃
-⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄
-⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡁
-⠈⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠁
-⠀⠀⠛⢿⣿⣿⣿⣿⣿⣿⡿⠟
-⠀⠀⠀⠀⠀⠉⠉⠉
-
-
-"Ngoding Tanpa Batas" - Kel 7
+"Ngoding Tanpa Batas" - Berkah
