@@ -16,4 +16,4 @@ Software ini berfungsi untuk pemesanan pembuatan Pesawat Terbang
 
 # Moto Kelompok
 
-"Ngoding Tanpa Batas" - Berkah
+"Ngoding Tanpa Batas dan tak terhentikan" - Berkah
