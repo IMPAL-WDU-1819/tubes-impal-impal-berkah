@@ -42,17 +42,18 @@
         android:layout_marginTop="80dp"
         android:layout_marginEnd="8dp"
         android:backgroundTint="#C4C4C4"
-        android:hint="Company Mail"
-        android:inputType="textEmailAddress"
-        android:textColorHint="#ffffff"
-        android:drawablePadding="10dp"
         android:drawableLeft="@drawable/mail_logo"
+        android:drawablePadding="10dp"
+        android:hint="Mail"
+        android:textColor="#ffffff"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#80ffffff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <android.support.v7.widget.AppCompatEditText
-        android:id="@+id/appCompatEditText3"
+        android:id="@+id/pass"
         android:layout_width="290dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -60,25 +61,26 @@
         android:layout_marginEnd="8dp"
         android:backgroundTint="#C4C4C4"
         android:hint="Password"
+        android:textColor="#ffffff"
         android:drawablePadding="15dp"
         android:drawableLeft="@drawable/pass_logo"
         android:inputType="textPassword"
-        android:textColorHint="#ffffff"
+        android:textColorHint="#80ffffff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mail" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/login"
         android:layout_width="290dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="8dp"
-        android:textColor="#ffffff"
-        android:text="LOG IN"
         android:background="@drawable/bg_btn"
+        android:text="LOG IN"
+        android:textColor="#ffffff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/appCompatEditText3" />
+        app:layout_constraintTop_toBottomOf="@+id/pass" />
 </android.support.constraint.ConstraintLayout>

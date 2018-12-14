@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/modelpesawats",
+      "handler": "Modelpesawat.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/modelpesawats/count",
+      "handler": "Modelpesawat.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/modelpesawats/:id",
+      "handler": "Modelpesawat.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/modelpesawats",
+      "handler": "Modelpesawat.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/modelpesawats/:id",
+      "handler": "Modelpesawat.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/modelpesawats/:id",
+      "handler": "Modelpesawat.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/modelpesawats/:id/relationships/:relation",
+      "handler": "Modelpesawat.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/modelpesawats/:id/relationships/:relation",
+      "handler": "Modelpesawat.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/modelpesawats/:id/relationships/:relation",
+      "handler": "Modelpesawat.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

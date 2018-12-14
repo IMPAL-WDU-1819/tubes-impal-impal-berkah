@@ -1,0 +1,42 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "modelpesawat",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "namapesawat": {
+      "default": "",
+      "type": "string"
+    },
+    "kodepesawat": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "harga": {
+      "default": "",
+      "type": "string"
+    },
+    "deskripsi": {
+      "default": "",
+      "type": "text"
+    },
+    "designer": {
+      "default": "",
+      "type": "string"
+    },
+    "gambar": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

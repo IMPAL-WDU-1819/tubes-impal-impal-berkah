@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/orderans",
+      "handler": "Orderan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/orderans/count",
+      "handler": "Orderan.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/orderans/:id",
+      "handler": "Orderan.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/orderans",
+      "handler": "Orderan.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/orderans/:id",
+      "handler": "Orderan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/orderans/:id",
+      "handler": "Orderan.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/orderans/:id/relationships/:relation",
+      "handler": "Orderan.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/orderans/:id/relationships/:relation",
+      "handler": "Orderan.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/orderans/:id/relationships/:relation",
+      "handler": "Orderan.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

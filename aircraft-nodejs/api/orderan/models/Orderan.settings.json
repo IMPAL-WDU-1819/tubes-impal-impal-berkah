@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "orderans",
+  "info": {
+    "name": "orderan",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Progress": {
+      "default": "",
+      "type": "string"
+    },
+    "Pembeli": {
+      "default": "",
+      "type": "email"
+    },
+    "namapesawat": {
+      "default": "",
+      "type": "string"
+    },
+    "gambar": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}
